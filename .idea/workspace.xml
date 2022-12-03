@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0aabbaa-7af6-4206-bee4-01a43b627b11" name="Changes" comment="Template-Method added!">
-      <change afterPath="$PROJECT_DIR$/src/adapter/AdapterRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Android.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/Iphone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/LightningPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/LightningToMicroUsbAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/adapter/MicroUsbPhone.java" afterDir="false" />
+    <list default="true" id="b0aabbaa-7af6-4206-bee4-01a43b627b11" name="Changes" comment="Adapter added!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/AdapterRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/AdapterRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +132,7 @@
       <updated>1669923341014</updated>
       <workItem from="1669923343003" duration="2985000" />
       <workItem from="1670005535145" duration="1753000" />
-      <workItem from="1670098918863" duration="1869000" />
+      <workItem from="1670098918863" duration="2932000" />
     </task>
     <task id="LOCAL-00001" summary="Thread safe singleton added!">
       <created>1669923794270</created>
@@ -167,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670008414061</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adapter added!">
+      <created>1670100954330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670100954330</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +190,8 @@
     <MESSAGE value="Thread safe singleton added!" />
     <MESSAGE value="Thread safe singleton with DBConnection added!" />
     <MESSAGE value="Template-Method added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Template-Method added!" />
+    <MESSAGE value="Adapter added!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter added!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -10,7 +10,7 @@ public class LightningToMicroUsbAdapter implements MicroUsbPhone {
 
 	@Override
 	public void useMicroUsb() {
-		System.out.println("MicroUsb connected");
+		//System.out.println("MicroUsb connected");
 		lightningPhone.useLightning();
 	}
 

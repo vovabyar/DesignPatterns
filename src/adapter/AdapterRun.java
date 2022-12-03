@@ -11,9 +11,7 @@ public class AdapterRun {
         Android android = new Android();
         String androidRechargeResult = rechargeMicroUsbPhone(android);
         Iphone iPhone = new Iphone();
-        //rechargeMicroUsbPhone(iPhone);
+        //rechargeMicroUsbPhone((LightningPhone) iPhone);
         String iphoneWithMicroUsbRechargeResult = rechargeMicroUsbPhone(new LightningToMicroUsbAdapter(iPhone));
-//        log.info("iphoneWithMicroUsbRechargeResult={}", iphoneWithMicroUsbRechargeResult);
-//        assertEquals("Recharge finished", iphoneWithMicroUsbRechargeResult);
     }
 }
